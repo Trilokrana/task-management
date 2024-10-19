@@ -11,7 +11,7 @@ Before getting started, make sure you have Node.js installed. You can download i
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/task-manager.git
+   git clone https://github.com/Trilokrana/task-management.git
    cd task
 
 2. Install dependencies:
@@ -40,7 +40,7 @@ components/TaskForm.js: Component that provides a form for adding new tasks.
 This project also utilizes next/font to load custom fonts (Inter from Google Fonts) for enhanced performance and readability.
 
 Task Sorting by Priority
-Approach
+Approach<br>
 The task list in the application is sorted based on the priority of each task. Tasks can have one of the following priorities:
 
 High
