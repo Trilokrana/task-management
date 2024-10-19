@@ -54,6 +54,8 @@ Medium priority tasks follow.
 Low priority tasks appear at the bottom.
 This ensures that more urgent tasks are visible first, making it easier for users to prioritize their work. The sorting logic is handled within the TaskList component, where tasks are sorted based on their priority field before rendering.
 
+<h5> Note</h5> : I am using app directory , the app/ directory introduces a new way of handling data fetching, layouts, and rendering components. The App Router no longer supports traditional Next.js data fetching methods such as getServerSideProps, getStaticProps, and getInitialProps. These methods are only available in the Pages Router (projects using the pages/ directory).
+
 
 
    
