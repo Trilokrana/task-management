@@ -10,15 +10,8 @@ const initialTasks = [
 ];
 
 export default function Home() {
-  const [taskList, setTaskList] = useState(() => {
-    const savedTasks = localStorage.getItem('tasks');
-    return savedTasks ? JSON.parse(savedTasks) : initialTasks;
-  });
+  const [taskList, setTaskList] = useState(initialTasks);
 
-
-  useEffect(() => {
-    localStorage.setItem('tasks', JSON.stringify(taskList));
-  }, [taskList]);
 
   return (
     <div className="container mx-auto p-4">
